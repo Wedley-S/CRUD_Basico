@@ -20,6 +20,16 @@ public class Main {
                     break;
                 case 2:
                     menu.exibirTarefa();
+                    break;
+                case 3:
+                    menu.removerTarefa();
+                    break;
+                case 4:
+                    menu.mudarTarefa();
+                    break;
+                case 5:
+                    menu.sair();
+                    break;
             }
         }while (op != 5);
     }
